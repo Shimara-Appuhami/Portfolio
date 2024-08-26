@@ -18,3 +18,16 @@ body>main:first-child>header:first-child>h1:first-child{
     -webkit-text-fill-color: transparent;
     font-weight: 500;
 }
+
+/*I'm shimara design*/
+body>main:nth-child(1)>main:nth-child(2) > section:first-child > h2:first-child {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    background: linear-gradient(180deg, #FFFFFF 31%, #8A7B7B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
