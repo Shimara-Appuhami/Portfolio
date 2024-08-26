@@ -84,7 +84,6 @@ body>main:nth-child(1)>main:nth-child(2) > section:nth-child(2)>img:nth-child(1)
     height: 350px;
     border-radius: 100%;
     background: linear-gradient(180deg, #26256a 10%, #770081 100%);
-
     z-index: 1;
 
 
