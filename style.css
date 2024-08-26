@@ -88,3 +88,16 @@ body>main:nth-child(1)>main:nth-child(2) > section:nth-child(2)>img:nth-child(1)
 
 }
 
+/*white circle*/
+body>main:nth-child(1)>main:nth-child(2)>section:nth-child(2){
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    top: 80px;
+    right: 200px;
+    margin: auto;
+    border-radius: 50%;
+    border:2px solid #FFFFFF;
+}
+
+
