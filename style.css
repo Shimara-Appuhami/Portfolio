@@ -182,12 +182,13 @@ body>main:nth-child(1)>main:nth-child(2)>section:nth-child(3)>div:nth-child(5){
 
 
 }
+/*bottom-left*/
 body>main:nth-child(1)>main:nth-child(2)>section:nth-child(3)>div:nth-child(6){
-    width: 37px;
-    height: 37px;
+    width: 45px;
+    height: 45px;
     position: absolute;
-    bottom: 70px;
-    right: 100px;
+    bottom: 100px;
+    left: 300px;
     margin: auto;
     border-radius: 50%;
     background: linear-gradient(180deg, #26256a 10%, #770081 100%,transparent);
