@@ -83,7 +83,7 @@ body>main:nth-child(1)>main:nth-child(2) > section:nth-child(2)>img:nth-child(1)
     width: 350px;
     height: 350px;
     border-radius: 100%;
-    background: linear-gradient(180deg, #26256a 10%, #770081 100%);
+    background: linear-gradient(180deg, #26256a 10%, #770081 100%,transparent);
     z-index: 1;
 
 
@@ -98,7 +98,8 @@ body>main:nth-child(1)>main:nth-child(2)>section:nth-child(2){
     right: 200px;
     margin: auto;
     border-radius: 50%;
-    border:1px inset #FFFFFF;
+    border:1px inset transparent;
+
     box-shadow: 10px 10px 10px rgb(0, 0, 0);
 
 }
