@@ -85,7 +85,6 @@ body>main:nth-child(1)>main:nth-child(2) > section:nth-child(2)>img:nth-child(1)
     border-radius: 100%;
     background: linear-gradient(180deg, #26256a 10%, #770081 100%,transparent);
 
-
 }
 
 /*white circle*/
@@ -100,7 +99,6 @@ body>main:nth-child(1)>main:nth-child(2)>section:nth-child(2){
     border:1px inset #FFFFFF;
     z-index:4;
     clip-path: polygon(-100% 0%, 100% 0%, 100% 100%, 50% 100%);
-
 
 }
 
@@ -132,7 +130,6 @@ body>main:nth-child(1)>main:nth-child(2)>section:nth-child(3)>div:nth-child(2){
     box-shadow: 10px 10px 10px rgb(0, 0, 0);
     z-index: 5;
 
-
 }
 /*top -right 1*/
 body>main:nth-child(1)>main:nth-child(2)>section:nth-child(3)>div:nth-child(3){
@@ -163,8 +160,6 @@ body>main:nth-child(1)>main:nth-child(2)>section:nth-child(3)>div:nth-child(4){
 
     box-shadow: 10px 10px 10px rgb(0, 0, 0);
     z-index: 5;
-
-
 }
 /*bottom-right*/
 body>main:nth-child(1)>main:nth-child(2)>section:nth-child(3)>div:nth-child(5){
@@ -179,8 +174,6 @@ body>main:nth-child(1)>main:nth-child(2)>section:nth-child(3)>div:nth-child(5){
 
     box-shadow: 10px 10px 10px rgb(0, 0, 0);
     z-index: 5;
-
-
 }
 /*bottom-left*/
 body>main:nth-child(1)>main:nth-child(2)>section:nth-child(3)>div:nth-child(6){
