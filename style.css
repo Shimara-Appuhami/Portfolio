@@ -44,5 +44,14 @@ body>main:nth-child(1)>main:nth-child(2) > section:nth-child(1) > h3:nth-child(2
     -webkit-text-fill-color: transparent;
     font-weight: 600;
 }
-
-
+/*main paragraph design*/
+body>main:nth-child(1)>main:nth-child(2) > section:nth-child(1) > p:nth-child(3) {
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    background: linear-gradient(180deg, #F79EFF 65%, #8A7B7B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
