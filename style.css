@@ -73,3 +73,18 @@ body>main:nth-child(1)>main:nth-child(2) > section:nth-child(1) > button {
     background:#370634;
 
 }
+
+/*my image*/
+body>main:nth-child(1)>main:nth-child(2) > section:nth-child(2)>img:nth-child(1){
+    position: absolute;
+    top: 95px;
+    right: 97px;
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    background: linear-gradient(180deg, #FDC898 0%, #B517FF 11%);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+
+}
+
