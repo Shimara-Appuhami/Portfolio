@@ -198,4 +198,34 @@ body>main:nth-child(1)>main:nth-child(2)>section:nth-child(3)>div:nth-child(6){
 
 
 }
+body>main:nth-child(1)>main:nth-child(2)>section:nth-child(3)>div:nth-child(7){
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: 100px;
+    left: 350px;
+    margin: auto;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #26256a 10%, #770081 100%,transparent);
+
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    z-index: 5;
+
+
+}
+body>main:nth-child(1)>main:nth-child(2)>section:nth-child(3)>div:nth-child(8){
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 90px;
+    left: 300px;
+    margin: auto;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #26256a 10%, #770081 100%,transparent);
+
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    z-index: 5;
+
+
+}
 
