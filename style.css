@@ -1,0 +1,8 @@
+/*hero page design*/
+main:nth-child(1){
+    width: 1500px;
+    height:700px;
+    background: linear-gradient(180deg, #000136 46%, #370634 100%);
+}
+
+
