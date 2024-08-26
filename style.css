@@ -84,7 +84,7 @@ body>main:nth-child(1)>main:nth-child(2) > section:nth-child(2)>img:nth-child(1)
     height: 350px;
     border-radius: 100%;
     background: linear-gradient(180deg, #FDC898 0%, #B517FF 11%);
-    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+
     z-index: 1;
 
 
@@ -112,6 +112,7 @@ body>main:nth-child(1)>main:nth-child(2)>section:nth-child(3)>div:nth-child(1){
     margin: auto;
     border-radius: 50%;
     background: linear-gradient(180deg, #FDC898 0%, rgba(181, 23, 255, 0.18) 11%);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
 
 }
 
