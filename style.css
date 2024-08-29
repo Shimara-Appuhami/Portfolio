@@ -223,3 +223,15 @@ main:nth-child(2){
     height:700px;
     background: linear-gradient(180deg, #000136 46%, #370634 100%);
 }
+
+/*home nav image*/
+main:nth-child(2)>section:nth-child(1)>nav>img:nth-child(1){
+    width: 27px;
+    height: 27px;
+    position: relative;
+    top: -640px;
+    left: 24px;
+    margin: auto;
+    cursor: hand;
+
+}
