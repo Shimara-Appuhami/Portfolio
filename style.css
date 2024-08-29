@@ -281,3 +281,13 @@ main:nth-child(2)>section:nth-child(1)>nav>img:nth-child(6){
     left: -100px;
     margin: auto;
 }
+/*contact nav image*/
+main:nth-child(2)>section:nth-child(1)>nav>img:nth-child(7){
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -280px;
+    left: -210px;
+    margin: auto;
+
+}
