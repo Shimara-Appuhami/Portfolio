@@ -291,3 +291,14 @@ main:nth-child(2)>section:nth-child(1)>nav>img:nth-child(7){
     margin: auto;
 
 }
+/*side circle*/
+main:nth-child(2)>section:nth-child(1)>div:nth-child(1){
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 215px;
+    left: -790px;
+    margin: auto;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #26256a 10%, #770081 100%);
+}
