@@ -235,3 +235,12 @@ main:nth-child(2)>section:nth-child(1)>nav>img:nth-child(1){
     cursor: hand;
 
 }
+/*about me nav image*/
+main:nth-child(2)>section:nth-child(1)>nav>img:nth-child(2){
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -600px;
+    left: 60px;
+    margin: auto;
+}
