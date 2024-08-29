@@ -263,3 +263,12 @@ main:nth-child(2)>section:nth-child(1)>nav>img:nth-child(4){
     left: 50px;
     margin: auto;
 }
+/*projects nav image*/
+main:nth-child(2)>section:nth-child(1)>nav>img:nth-child(5){
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -378px;
+    left: -10px;
+    margin: auto;
+}
