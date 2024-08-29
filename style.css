@@ -253,3 +253,13 @@ main:nth-child(2)>section:nth-child(1)>nav>img:nth-child(3){
     left: 80px;
     margin: auto;
 }
+
+/*skills nav image*/
+main:nth-child(2)>section:nth-child(1)>nav>img:nth-child(4){
+    width: 40px;
+    height: 45px;
+    position: relative;
+    top: -450px;
+    left: 50px;
+    margin: auto;
+}
