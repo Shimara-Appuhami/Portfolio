@@ -302,3 +302,14 @@ main:nth-child(2)>section:nth-child(1)>div:nth-child(1){
     border-radius: 50%;
     background: linear-gradient(180deg, #26256a 10%, #770081 100%);
 }
+/*white circle*/
+main:nth-child(2)>section:nth-child(1)>div:nth-child(2){
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: -190px;
+    left: -750px;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid white;
+}
