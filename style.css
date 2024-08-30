@@ -430,6 +430,18 @@ main:nth-child(4){
     height:700px;
     background: linear-gradient(180deg, #000136 46%, #370634 100%);
 }
+/*edu white border line*/
+main:nth-child(4)>section:nth-child(2)>div:nth-child(1){
+    width: 200px;
+    height: 300px;
+    position: relative;
+    top: 150px;
+    left: -350px;
+    margin: auto;
+    border-radius: 15px;
+    border: 1px solid gray;
+
+}
 
 
 
