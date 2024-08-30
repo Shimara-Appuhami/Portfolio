@@ -383,6 +383,17 @@ main:nth-child(3)>section:nth-child(3)>div{
 }
 /*about paragraph*/
 main:nth-child(3)>section:nth-child(3)>p{
+    font-family: 'Katibeh', sans-serif;
+    position: relative;
+    top: -505px;
+    right: -400px;
+    margin: auto;
+    text-align: left;
+    font-size: 20px;
+    background: linear-gradient(180deg, #FFFFFF 65%, #8A7B7B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
 
 }
 
