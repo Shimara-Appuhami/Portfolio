@@ -342,6 +342,11 @@ main:nth-child(3)>section:nth-child(1)>div:nth-child(1){
     -webkit-text-fill-color: transparent;
     font-weight: 500;
 }
+/*Aspiring software engineer*/
+main:nth-child(3)>section:nth-child(1)>div:nth-child(2){
+
+}
+
 
 
 
