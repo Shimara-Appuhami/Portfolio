@@ -422,6 +422,7 @@ main:nth-child(3)>section:nth-child(4)>p{
     background: linear-gradient(180deg, #FFFFFF 65%, #8A7B7B 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
 }
 
 
