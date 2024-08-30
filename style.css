@@ -381,6 +381,10 @@ main:nth-child(3)>section:nth-child(3)>div{
     font-weight: 500;
 
 }
+/*about paragraph*/
+main:nth-child(3)>section:nth-child(3)>p{
+
+}
 
 
 
