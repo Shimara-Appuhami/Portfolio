@@ -323,5 +323,11 @@ main:nth-child(2)>section:nth-child(2)>video{
     border-radius: 50%;
 }
 /*about section*/
+main:nth-child(3){
+    width: 1500px;
+    height:700px;
+    background: linear-gradient(180deg, #000136 46%, #370634 100%);
+}
+
 
 
