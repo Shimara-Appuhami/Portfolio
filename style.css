@@ -374,7 +374,7 @@ main:nth-child(3)>section:nth-child(3)>div{
     right: -400px;
     margin: auto;
     text-align: left;
-    font-size: 30px;
+    font-size: 27px;
     background: linear-gradient(180deg, #FFFFFF 65%, #8A7B7B 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -394,6 +394,21 @@ main:nth-child(3)>section:nth-child(3)>p{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 500;
+}
+/*background word*/
+main:nth-child(3)>section:nth-child(4)>div{
+    font-family: 'Katibeh', sans-serif;
+    position: relative;
+    top: -505px;
+    right: -400px;
+    margin: auto;
+    text-align: left;
+    font-size: 27px;
+    background: linear-gradient(180deg, #FFFFFF 65%, #8A7B7B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+
 }
 
 
