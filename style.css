@@ -356,6 +356,11 @@ main:nth-child(3)>section:nth-child(1)>div:nth-child(2){
     -webkit-text-fill-color: transparent;
     font-weight: 500;
 }
+/*about me picture*/
+main:nth-child(3)>img{
+
+
+}
 
 
 
