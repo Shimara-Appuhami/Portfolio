@@ -344,7 +344,17 @@ main:nth-child(3)>section:nth-child(1)>div:nth-child(1){
 }
 /*Aspiring software engineer*/
 main:nth-child(3)>section:nth-child(1)>div:nth-child(2){
-
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    top: 20px;
+    right: -400px;
+    margin: auto;
+    text-align: left;
+    font-size: 40px;
+    background: linear-gradient(180deg, #595895 42%, #7700 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
 }
 
 
