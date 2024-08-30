@@ -389,7 +389,7 @@ main:nth-child(3)>section:nth-child(3)>p{
     right: -400px;
     margin: auto;
     text-align: left;
-    font-size: 20px;
+    font-size: 30px;
     background: linear-gradient(180deg, #FFFFFF 65%, #8A7B7B 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
