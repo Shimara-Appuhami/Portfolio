@@ -451,6 +451,18 @@ main:nth-child(4)>section:nth-child(2)>div:nth-child(1)>img:nth-child(1){
     left: 25px;
     border-radius: 15px;
 }
+/*princess name*/
+main:nth-child(4)>section:nth-child(2)>div:nth-child(1)>h6{
+    font-family: 'Katibeh', sans-serif;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    margin: auto;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 50;
+}
+
 
 
 
