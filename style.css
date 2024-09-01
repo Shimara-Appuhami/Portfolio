@@ -438,8 +438,10 @@ main:nth-child(4)>section:nth-child(2)>div:nth-child(1){
     top: 150px;
     left: -350px;
     margin: auto;
-    border-radius: 15px;
+    border-radius: 35px;
     border: 1px solid gray;
+    box-shadow: 1px 5px 10px 1px #770081 ;
+
 
 }
 /*princess image*/
