@@ -462,6 +462,18 @@ main:nth-child(4)>section:nth-child(2)>div:nth-child(1)>h6{
     color: #FFFFFF;
     font-weight: 50;
 }
+/*princess address*/
+main:nth-child(4)>section:nth-child(2)>div:nth-child(1)>address{
+    font-family: 'Katibeh', sans-serif;
+    position: relative;
+    top: 30px;
+    left: 70px;
+    margin: auto;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+
 
 
 
