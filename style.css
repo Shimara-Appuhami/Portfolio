@@ -430,7 +430,7 @@ main:nth-child(4){
     height:700px;
     background: linear-gradient(180deg, #000136 46%, #370634 100%);
 }
-/*edu white border line*/
+/*edu 1 white border line*/
 main:nth-child(4)>section:nth-child(2)>div:nth-child(1){
     width: 200px;
     height: 300px;
@@ -489,6 +489,20 @@ main:nth-child(4)>section:nth-child(2)>div:nth-child(1)>button{
     background: linear-gradient(10deg, #00428D 0%, #001227 100%);
     border-radius: 50px;
 
+
+
+}
+/*edu 2 white border line*/
+main:nth-child(4)>section:nth-child(2)>div:nth-child(2){
+    width: 200px;
+    height: 300px;
+    position: relative;
+    top: -150px;
+    left: -50px;
+    margin: auto;
+    border-radius: 35px;
+    border: 1px solid gray;
+    box-shadow: 1px 5px 10px 1px #770081 ;
 
 
 }
