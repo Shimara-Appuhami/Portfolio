@@ -430,6 +430,21 @@ main:nth-child(4){
     height:700px;
     background: linear-gradient(180deg, #000136 46%, #370634 100%);
 }
+/*edu title*/
+main:nth-child(4)>header>div:nth-child(1){
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    top: 20px;
+    right: -625px;
+    margin: auto;
+    text-align: left;
+    font-size: 40px;
+    background: linear-gradient(180deg, #FFFFFF 28%, #5553A9 76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+
+}
 /*edu 1 white border line*/
 main:nth-child(4)>section:nth-child(2)>div:nth-child(1){
     width: 200px;
