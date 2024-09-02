@@ -865,5 +865,11 @@ main:nth-child(5)>section:nth-child(1)>div:nth-child(5)>div:nth-child(4)>img {
 
 
 }
-
-
+/*Achievement main page */
+main:nth-child(6) {
+    width: 1500px;
+    height:700px;
+    background: linear-gradient(180deg, #000136 46%, #370634 100%);
+    margin: 40px auto;
+    padding: 20px;
+}
