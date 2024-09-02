@@ -709,10 +709,15 @@ main:nth-child(5)>section:nth-child(1)>div:nth-child(3)>p {
 
 
 }
-/*backend languages*/
-main:nth-child(5)>section:nth-child(1)>div:nth-child(3)>div:nth-child(1)>img {
-    width: 20px;
-    height: 20px;
+/*backend languages java*/
+main:nth-child(5)>section:nth-child(1)>div:nth-child(3)>div:nth-child(4)>img {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -10px;
+    left: 125px;
+
+
 }
 
 
