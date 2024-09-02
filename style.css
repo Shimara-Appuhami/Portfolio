@@ -662,7 +662,17 @@ main:nth-child(5)>section:nth-child(1)>div:nth-child(2){
     border-radius: 20px;
     background: linear-gradient(180deg, #000136 46%, #370634 100%);
 }
-
+/*skills backend*/
+main:nth-child(5)>section:nth-child(1)>div:nth-child(3){
+    width: 300px;
+    height: 400px;
+    position: relative;
+    top: -125px;
+    left: 150px;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px 1px #333333;
+}
 
 
 
