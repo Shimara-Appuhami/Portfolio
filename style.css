@@ -889,7 +889,7 @@ main:nth-child(6)>header>h1 {
 /*My Journey of Success p*/
 main:nth-child(6)>header>p {
     font-size: 20px;
-    color: #ffae00;
+    color: rgba(182, 181, 181, 0.65);
     margin: 50px 650px 50px;
 }
 /*Achievement layout*/
