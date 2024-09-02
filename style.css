@@ -744,11 +744,11 @@ main:nth-child(5)>section:nth-child(1)>div:nth-child(4){
 }
 /*front image*/
 main:nth-child(5)>section:nth-child(1)>div:nth-child(4)>img{
-    width: 45px;
-    height: 45px;
+    width: 100px;
+    height: 50px;
     position: relative;
-    top: 25px;
-    left: 50px;
+    top: 30px;
+    left: 100px;
 
 
 }
@@ -756,7 +756,7 @@ main:nth-child(5)>section:nth-child(1)>div:nth-child(4)>img{
 main:nth-child(5)>section:nth-child(1)>div:nth-child(4)>h4 {
     font-family: 'Inter', sans-serif;
     position: relative;
-    top: 30px;
+    top: 20px;
     left: 50px;
     font-size: 20px;
     color: black;
