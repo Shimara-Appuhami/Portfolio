@@ -912,6 +912,7 @@ main:nth-child(6)>header>p {
     height: 200px;
     object-fit: cover;
 }
+
 /*content padding*/
 .achievement-content {
     padding: 20px;
