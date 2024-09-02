@@ -662,7 +662,7 @@ main:nth-child(5)>section:nth-child(1)>div:nth-child(2){
     border-radius: 20px;
     background: linear-gradient(180deg, #000136 46%, #370634 100%);
 }
-/*skills backend*/
+/*skills backend card*/
 main:nth-child(5)>section:nth-child(1)>div:nth-child(3){
     width: 300px;
     height: 400px;
