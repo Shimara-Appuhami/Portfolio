@@ -888,9 +888,9 @@ main:nth-child(6)>header>h1 {
 }
 /*My Journey of Success p*/
 main:nth-child(6)>header>p {
-    font-size: 18px;
+    font-size: 20px;
     color: #ffae00;
-    margin: 10px 0 0;
+    margin: 50px 650px 50px;
 }
 /*Achievement layout*/
 .achievement-container {
