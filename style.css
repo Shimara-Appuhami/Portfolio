@@ -821,5 +821,15 @@ main:nth-child(5)>section:nth-child(1)>div:nth-child(5){
 
 
 }
+/*designer image*/
+main:nth-child(5)>section:nth-child(1)>div:nth-child(5)>img{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    left: 100px;
+
+
+}
 
 
