@@ -808,6 +808,18 @@ main:nth-child(5)>section:nth-child(1)>div:nth-child(4)>div:nth-child(6)>img {
 
 
 }
+/*skills designer card*/
+main:nth-child(5)>section:nth-child(1)>div:nth-child(5){
+    width: 300px;
+    height: 400px;
+    position: relative;
+    top: -925px;
+    left: 1050px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 0px 5px 1px gray;
 
+
+}
 
 
