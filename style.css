@@ -652,6 +652,17 @@ main:nth-child(5)>section:nth-child(1)>h1{
 
 
 }
+/*skills background bar*/
+main:nth-child(5)>section:nth-child(1)>div:nth-child(2){
+    width: 1300px;
+    height: 200px;
+    position: relative;
+    top: -100px;
+    left: 100px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #000136 46%, #370634 100%);
+}
+
 
 
 
