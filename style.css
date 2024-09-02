@@ -637,6 +637,21 @@ main:nth-child(5){
     height:700px;
     background: linear-gradient(180deg, #FFFFFF 46%, gray 100%);
 }
+/*skills head*/
+main:nth-child(5)>section:nth-child(1)>h1{
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    background: linear-gradient(180deg, #FFFFFF 28%, #5553A9 76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    text-align: center;
+    top:50px;
+    z-index: 1;
+    font-weight:400;
+
+
+}
 
 
 
