@@ -873,3 +873,16 @@ main:nth-child(6) {
     margin: 40px auto;
     padding: 20px;
 }
+/*Achievement title*/
+main:nth-child(6)>header>h1 {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    background: linear-gradient(180deg, #FFFFFF 28%, #5553A9 76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    text-align: center;
+    top:10px;
+    z-index: 1;
+    font-weight:400;
+}
