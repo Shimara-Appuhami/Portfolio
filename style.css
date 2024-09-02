@@ -886,3 +886,10 @@ main:nth-child(6)>header>h1 {
     z-index: 1;
     font-weight:400;
 }
+/*My Journey of Success p*/
+main:nth-child(6)>header>p {
+    font-size: 18px;
+    color: #ffae00;
+    margin: 10px 0 0;
+}
+
