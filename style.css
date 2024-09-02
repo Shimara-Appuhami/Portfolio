@@ -742,17 +742,28 @@ main:nth-child(5)>section:nth-child(1)>div:nth-child(4){
 
 
 }
-/*backend image*/
+/*front image*/
 main:nth-child(5)>section:nth-child(1)>div:nth-child(4)>img{
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     position: relative;
-    top: 1px;
+    top: 25px;
     left: 50px;
 
 
 }
+/*front-end name*/
+main:nth-child(5)>section:nth-child(1)>div:nth-child(4)>h4 {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
 
+
+}
 
 
 
