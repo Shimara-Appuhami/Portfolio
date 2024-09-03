@@ -949,5 +949,17 @@ main:nth-child(7) {
     height: 700px;
     background: linear-gradient(180deg, #000136 46%, #370634 100%);
 }
-
+/*Latest work*/
+main:nth-child(7)>header>h3 {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    background: linear-gradient(180deg, #FFFFFF 28%, #5553A9 76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    text-align: center;
+    top:10px;
+    z-index: 1;
+    font-weight:400;
+}
 
