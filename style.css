@@ -943,4 +943,11 @@ main:nth-child(6)>header>p {
     color: #999;
     margin-top: 10px;
 }
+/*project section*/
+main:nth-child(7) {
+    width: 1500px;
+    height: 700px;
+    background: linear-gradient(180deg, #000136 46%, #370634 100%);
+}
+
 
