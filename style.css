@@ -1128,4 +1128,16 @@ main:nth-child(8) {
     padding: 0;
     background: linear-gradient(180deg, #000136 46%, #370634 100%);
 }
-
+/*gallery header*/
+main:nth-child(8)>header>h3 {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    background: linear-gradient(180deg, #FFFFFF 28%, #5553A9 76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    text-align: center;
+    top:15px;
+    z-index: 1;
+    font-weight:400;
+}
