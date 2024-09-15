@@ -11,7 +11,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Katibeh&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
 </head>
 <body>
@@ -24,7 +27,7 @@
 <main>
     <!--Welcome section-->
     <section>
-        <h2>I'm Shimara Appuhami</h2>
+        <h2 class="animate__animated animate__bounce infinity" >I'm Shimara Appuhami</h2>
         <h3>Aspiring Software Engineer|Passionate Leaner</h3>
         <p>I aim to excel in technical skills while <br>
             understanding the societal impact of <br>
@@ -86,7 +89,7 @@
 <main>
     <!--about section main heading-->
     <section>
-        <div>Shimara Appuhami</div>
+        <div class= "flip-left">Shimara Appuhami</div>
         <div>Aspiring Software Engineer | Passionate Leaner </div>
     </section>
     <!--profile picture-->
@@ -120,7 +123,8 @@
     <!--education section content-->
     <section>
         <!--education 1-->
-        <div>
+        <div  data-aos="fade-up"
+              data-aos-anchor-placement="center-center">
             <img src="assets/images/education/school.jpg">
             <h6>Princess Of Wales Collage</h6><br>
             <address>2AD, Galle Rd,<br> Moratuwa.</address>
@@ -342,6 +346,8 @@
 </main>
 <!--AOS-->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
