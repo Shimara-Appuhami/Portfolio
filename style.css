@@ -904,7 +904,7 @@ main:nth-child(6) > header > h1 {
     -webkit-text-fill-color: transparent;
     font-size: 50px;
     text-align: center;
-    top:50px;
+    top:30px;
     left: -20px;
     z-index: 1;
     font-weight:400;
@@ -916,7 +916,7 @@ main:nth-child(6) > header > p {
     font-size: 20px;
     color: rgba(182, 181, 181, 0.85);
     /*text-align: center;*/
-    margin-top: 50px;
+    margin-top: 30px;
     position: relative;
     left: 670px;
     width: 700px;
