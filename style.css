@@ -1442,6 +1442,13 @@ main:nth-child(8) > header > h3 {
 .wrap:hover .overlay-content .animate {
     display: none;
 }
+/* Animations */
+.animate {
+    animation-duration: 0.7s;
+    animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+    animation-fill-mode: backwards;
+}
+
 /*---------------------------------------------Gallery------------------------------------------------*/
 
 
