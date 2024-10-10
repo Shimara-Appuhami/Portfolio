@@ -1936,3 +1936,38 @@ input {
         bottom: 80px;
     }
 }
+
+/*--------------------------------------nav-----------------------------------------*/
+/*laptop*/
+@media all and (min-width: 1440px) and (max-width:1518px){
+    /* Reduce the size and adjust positioning for smaller screens */
+    main:nth-child(2) > section:nth-child(1) > nav > img {
+        top: -800px;
+        left: 0;
+        margin-bottom: 10px;
+    }
+
+    /* Adjust side circle */
+    main:nth-child(2) > section:nth-child(1) > div:nth-child(1) {
+        width: 300px;
+        height: 300px;
+        top: 250px;
+        left: -750px;
+    }
+
+    /* Adjust white circle */
+    main:nth-child(2) > section:nth-child(1) > div:nth-child(2) {
+        width: 500px;
+        height: 500px;
+        top: -150px;
+        left: -710px;
+    }
+
+    /* Adjust video */
+    main:nth-child(2) > section:nth-child(2) > video {
+        width: 500px;
+        height: 500px;
+        top: -700px;
+        right: -550px;
+    }
+}
