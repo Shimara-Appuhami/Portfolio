@@ -1276,7 +1276,18 @@ main:nth-child(8) > .animate p {
     font-weight: bolder;
     margin-bottom: 1.5rem;
 }
-
+/*Module header*/
+main:nth-child(8) > header > h3 {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(180deg, #FFFFFF 28%, #5553A9 76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 240px;
+    margin-left: 50px;
+    font-weight: 400;
+}
 /*---------------------------------------------Gallery------------------------------------------------*/
 
 
