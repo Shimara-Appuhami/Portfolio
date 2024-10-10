@@ -1330,6 +1330,10 @@ main:nth-child(8) > header > h3 {
     animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
     animation-fill-mode: backwards;
 }
+.animate p{
+    background: #4B0082FF;
+
+}
 /*---------------------------------------------Gallery------------------------------------------------*/
 
 
