@@ -1253,6 +1253,18 @@ main:nth-child(7) > section > div > h4 {
     font-weight: 450;
 }
 /*------------------------------------------Assignments------------------------------------------*/
+/*Assignment Section*/
+main:nth-child(8) {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #000136 46%, #370634 100%);
+    font-family: "Martel Sans", sans-serif;
+}
 
 /*---------------------------------------------Gallery------------------------------------------------*/
 
