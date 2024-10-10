@@ -1449,6 +1449,11 @@ main:nth-child(8) > header > h3 {
     animation-fill-mode: backwards;
 }
 
+/*animations for card transitions*/
+.pop {
+    animation-name: pop;
+}
+
 /*---------------------------------------------Gallery------------------------------------------------*/
 
 
