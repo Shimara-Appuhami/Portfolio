@@ -1265,6 +1265,17 @@ main:nth-child(8) {
     background: linear-gradient(180deg, #000136 46%, #370634 100%);
     font-family: "Martel Sans", sans-serif;
 }
+/*cover sub title*/
+main:nth-child(8) > .animate p {
+    font-size: 17px;
+    line-height: 1.4;
+    display: block;
+    position: relative;
+    left: -80px;
+    color: #4B0082FF;
+    font-weight: bolder;
+    margin-bottom: 1.5rem;
+}
 
 /*---------------------------------------------Gallery------------------------------------------------*/
 
