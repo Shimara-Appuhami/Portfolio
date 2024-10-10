@@ -1334,6 +1334,10 @@ main:nth-child(8) > header > h3 {
     background: #4B0082FF;
 
 }
+/* Optional: Custom scrollbar styling for horizontal scroll */
+.card-container::-webkit-scrollbar {
+    height: 8px;
+}
 /*---------------------------------------------Gallery------------------------------------------------*/
 
 
