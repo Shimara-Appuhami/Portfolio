@@ -1428,6 +1428,15 @@ main:nth-child(8) > header > h3 {
     transform: translateX(-60vmin);
 }
 
+/*.wrap:hover .image-content {*/
+/*    width: 30vmin;*/
+/*}*/
+
+.wrap:hover .overlay-content {
+    border: none;
+    transition-delay: 0.2s;
+    transform: translateX(60vmin);
+}
 /*---------------------------------------------Gallery------------------------------------------------*/
 
 
