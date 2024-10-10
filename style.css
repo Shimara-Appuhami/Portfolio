@@ -1338,6 +1338,11 @@ main:nth-child(8) > header > h3 {
 .card-container::-webkit-scrollbar {
     height: 8px;
 }
+/*bar styling*/
+.card-container::-webkit-scrollbar-thumb {
+    background-color: #4A90E2;
+    border-radius: 5px;
+}
 /*---------------------------------------------Gallery------------------------------------------------*/
 
 
