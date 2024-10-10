@@ -1437,6 +1437,11 @@ main:nth-child(8) > header > h3 {
     transition-delay: 0.2s;
     transform: translateX(60vmin);
 }
+
+/*animation card text */
+.wrap:hover .overlay-content .animate {
+    display: none;
+}
 /*---------------------------------------------Gallery------------------------------------------------*/
 
 
