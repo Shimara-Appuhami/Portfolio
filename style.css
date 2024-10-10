@@ -1410,6 +1410,20 @@ main:nth-child(8) > header > h3 {
 
 }
 
+/*view button*/
+.text a button {
+    width: 50px;
+    height: 24px;
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+}
+
+
 /*---------------------------------------------Gallery------------------------------------------------*/
 
 
