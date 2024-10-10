@@ -1366,7 +1366,28 @@ main:nth-child(8) > header > h3 {
     transition: 0.3s ease-in-out 0.2s;
     z-index: 1;
 }
+/*.image-content {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    width: 60vmin;*/
+/*    height: 100%;*/
+/*    background-size: cover;*/
+/*    transition: 0.3s ease-in-out;*/
+/*}*/
 
+/*assignments designs*/
+.text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60vmin;
+    height: 100%;
+    padding: 3vmin 4vmin;
+    background: #fff;
+    box-shadow: inset 1px 1px 15px 0 rgba(0, 0, 0, 0.4);
+    overflow-y: scroll;
+}
 /*---------------------------------------------Gallery------------------------------------------------*/
 
 
