@@ -1288,6 +1288,23 @@ main:nth-child(8) > header > h3 {
     margin-left: 50px;
     font-weight: 400;
 }
+
+/* Card container for horizontal scroll */
+.card-container {
+    display: flex; /* Horizontal flex layout */
+    flex-direction: row; /* Arrange cards in a row */
+    gap: 150px; /* Add space between cards */
+    padding: 2rem;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Enable snap scrolling */
+    scroll-behavior: smooth; /* Smooth scrolling behavior */
+    white-space: nowrap; /* Prevent wrapping */
+    position: relative;
+    top: 200px;
+    left: 100px;
+    margin-bottom: 100px
+}
+
 /*---------------------------------------------Gallery------------------------------------------------*/
 
 
