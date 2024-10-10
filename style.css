@@ -1423,6 +1423,10 @@ main:nth-child(8) > header > h3 {
     transition: background-color 0.3s ease;
 }
 
+/*hover effects*/
+.wrap:hover .overlay {
+    transform: translateX(-60vmin);
+}
 
 /*---------------------------------------------Gallery------------------------------------------------*/
 
