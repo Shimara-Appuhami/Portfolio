@@ -1852,3 +1852,87 @@ input {
     height: 2px;
     background-color: rgb(255, 255, 255);
 }
+
+
+
+/*-------------------Responsive----------------------------------*/
+/*Hero section*/
+/*Laptop*/
+@media all and (min-width: 1440px) and (max-width: 1512px) {
+    /* Adjust the Hello text for laptop size */
+    body > main:first-child > header:first-child > h4:first-child {
+        font-size: 70px;
+        top: 150px;
+        left: 100px;
+    }
+
+    /* Adjust the I'm Shimara text */
+    body > main:nth-child(1) > main:nth-child(2) > section:first-child > h2:first-child {
+        top: 260px;
+        font-size: 25px;
+    }
+
+    /* Adjust the Aspiring Software Engineer text */
+    body > main:nth-child(1) > main:nth-child(2) > section:nth-child(1) > h3:nth-child(2) {
+        top: 300px;
+        font-size: 19px;
+    }
+
+    /* Adjust paragraph text */
+    body > main:nth-child(1) > main:nth-child(2) > section:nth-child(1) > p:nth-child(3) {
+        top: 360px;
+        font-size: 17px;
+    }
+
+    /* Adjust the button */
+    body > main:nth-child(1) > main:nth-child(2) > section:nth-child(1) > button {
+        bottom: 170px;
+        left: 100px;
+        padding: 12px 18px;
+        font-size: 14px;
+    }
+
+    /* Adjust image size */
+    body > main:nth-child(1) > main:nth-child(2) > section:nth-child(2) > img:nth-child(1) {
+        width: 300px;
+        height: 300px;
+        top: 85px;
+        right: 87px;
+    }
+
+    /* Adjust white circle */
+    body > main:nth-child(1) > main:nth-child(2) > section:nth-child(2) {
+        width: 500px;
+        height: 500px;
+        right: 175px;
+    }
+
+    /* Adjust background circle */
+    body > main:nth-child(1) > main:nth-child(2) > section:nth-child(3) > div:nth-child(1) {
+        width: 340px;
+        height: 340px;
+        right: 245px;
+        top: 150px;
+    }
+
+    /* Adjust top-right small circle */
+    body > main:nth-child(1) > main:nth-child(2) > section:nth-child(3) > div:nth-child(2) {
+        right: 60px;
+        top: 110px;
+    }
+
+    /* Adjust top-left small circle */
+    body > main:nth-child(1) > main:nth-child(2) > section:nth-child(3) > div:nth-child(4) {
+        left: 650px;
+    }
+
+    /* Adjust bottom-left small circles */
+    body > main:nth-child(1) > main:nth-child(2) > section:nth-child(3) > div:nth-child(6) {
+        left: 250px;
+    }
+
+    body > main:nth-child(1) > main:nth-child(2) > section:nth-child(3) > div:nth-child(8) {
+        left: 260px;
+        bottom: 80px;
+    }
+}
