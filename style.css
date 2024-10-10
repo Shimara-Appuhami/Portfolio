@@ -1388,6 +1388,28 @@ main:nth-child(8) > header > h3 {
     box-shadow: inset 1px 1px 15px 0 rgba(0, 0, 0, 0.4);
     overflow-y: scroll;
 }
+/*assignments background bar*/
+.text a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    display: flex;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    border-radius: 8px; /* Rounded corners for links */
+    background-color: #f4f4f4; /* Light background for links */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between title and button */
+    padding: 10px; /* Add padding for better touch target */
+    width: 280px;
+    height: auto;
+    position: relative;
+    left: 130px;
+    top: 10px;
+    bottom: 20px;
+
+}
+
 /*---------------------------------------------Gallery------------------------------------------------*/
 
 
