@@ -1999,3 +1999,90 @@ input {
         font-size: 1.5vw;
     }
 }
+
+
+/*-----------------------------------------edu-----------------------------------------*/
+@media (min-width: 1440px) and (max-width: 1518px) {
+    main:nth-child(4) {
+        width: auto;
+
+    }
+
+    main:nth-child(4) > section:nth-child(2) {
+        width: 25%;
+        margin: 30px;
+        position: relative;
+        left: 550px;
+    }
+    main:nth-child(4) >header > div:nth-child(1){
+        position: relative;
+        left: 520px;
+    }
+}
+
+/*-----------------------------------------skills-----------------------------------------*/
+
+@media all and (min-width: 1440px) and (max-width:1518px){
+    .skills-wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0 50px;
+    }
+
+    /* skill cards in larger screens */
+    .skill-card {
+        width: 30%;
+        height: 400px;
+        margin: 0 10px;
+    }
+
+    main:nth-child(5) > section:nth-child(1) {
+       position: relative;
+        left: -20px;
+    }
+    main:nth-child(5) > section:nth-child(1)>h1 {
+        position: relative;
+        left: 20px;
+    }
+}
+
+/*-----------------------------------------achievements-----------------------------------------*/
+
+
+/* Media Queries */
+@media (min-width: 1440px) {
+    .achievements-container {
+        justify-content: space-between;
+        padding: 0 100px;
+    }
+
+    .card1{
+        left: 380px;
+    }
+    .card2{
+        left: 380px;
+    }
+
+    main:nth-child(6) > header > h1 {
+        font-size: 60px;
+
+    }
+
+    main:nth-child(6) > header > p {
+        position: relative;
+        left: 620px;
+    }
+}
+/*-----------------------------------------projects-----------------------------------------*/
+@media all and (min-width: 1440px) and (max-width:1518px){
+    /*.project-grid {*/
+    /*    grid-template-columns: repeat(3, 1fr);*/
+    /*    gap: 25px;*/
+    /*}*/
+    .projects-cards{
+        position: absolute;
+        left: 510px;
+    }
+}
+
