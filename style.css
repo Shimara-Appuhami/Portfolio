@@ -2085,4 +2085,15 @@ input {
         left: 510px;
     }
 }
+/*-----------------------------------------contact-----------------------------------------*/
+@media (min-width: 1440px) {
+    main:nth-child(7) > header > h1 {
+        font-size: 60px;
+    }
+
+    main:nth-child(7) > header > p {
+        position: relative;
+        left: 620px;
+    }
+}
 
