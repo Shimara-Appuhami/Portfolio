@@ -92,7 +92,7 @@ body>main:nth-child(1)>main:nth-child(2) > section:nth-child(2)>img:nth-child(1)
     position: absolute;
     top: 95px;
     right: 97px;
-    margin: auto;
+    /*margin: auto;*/
     width: 350px;
     height: 350px;
     border-radius: 100%;
@@ -2095,5 +2095,62 @@ input {
         position: relative;
         left: 620px;
     }
+}
+/*=============================================================================================================*/
+/*-------------------------------------------------------HERO--------------------------------------------------*/
+
+/* responsive 1024*/
+@media all and (min-width: 1024px) and (max-width:1439px){
+    body > main:nth-child(1) {
+        flex-direction: column;
+    }
+
+    body > main:first-child > header:first-child > h4:first-child {
+        font-size: 70px;
+    }
+
+    body > main:nth-child(1) > main:nth-child(2) > section:first-child > h2:first-child {
+        font-size: 25px;
+    }
+
+    body > main:nth-child(1) > main:nth-child(2) > section:nth-child(1) > h3:nth-child(2) {
+        font-size: 18px;
+    }
+
+    body > main:nth-child(1) > main:nth-child(2) > section:nth-child(1) > p:nth-child(3) {
+        font-size: 16px;
+    }
+
+    body > main:nth-child(1) > main:nth-child(2) > section:nth-child(2) > img:nth-child(1) {
+        width: 220px;
+        height: 220px;
+    }
+
+    /* Adjust button position and size */
+    body > main:nth-child(1) > main:nth-child(2) > section:nth-child(1) > button {
+        bottom: 150px;
+        left: 10%;
+        font-size: 14px;
+        padding: 12px 18px;
+    }
+    /*white circle*/
+    body>main:nth-child(1)>main:nth-child(2)>section:nth-child(2){
+        width: 400px;
+        height: 400px;
+        position: relative;
+        top: 250px;
+        right: -225px;
+    }
+
+    /*picture background circle*/
+    body>main:nth-child(1)>main:nth-child(2)>section:nth-child(3)>div:nth-child(1){
+        width: 250px;
+        height: 250px;
+        position: relative;
+        top: -70px;
+        right: -218px;
+    }
+    
+
 }
 
