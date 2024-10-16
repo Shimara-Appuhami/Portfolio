@@ -2188,7 +2188,7 @@ input {
     body > main:nth-child(1) > main:nth-child(2) > section:nth-child(1) > button {
         width: 140px;
         height: 45px;
-        bottom: 400px;
+        bottom: 350px;
         left: 15%;
         font-size: 13px;
         padding: 10px 15px;
@@ -2200,7 +2200,7 @@ input {
         width: 400px;
         height: 400px;
         position: relative;
-        top: 370px;
+        top: 310px;
         right: 0;
     }
     /*body>main:nth-child(1)>main:nth-child(2)>section:nth-child(2)>img{*/
@@ -2215,7 +2215,7 @@ input {
         width: 250px;
         height: 250px;
         position: relative;
-        top: 48px;
+        top: -11px;
         right: 5px;
     }
     body>main:nth-child(1)>main:nth-child(2)>section:nth-child(3)>div:nth-child(2),
@@ -2248,4 +2248,5 @@ input {
     }
 
 }
+
 
