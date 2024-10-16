@@ -2066,6 +2066,7 @@ input {
     body > main:nth-child(1) > main:nth-child(2) > section:nth-child(2) {
         width: 500px;
         height: 500px;
+        top: 150px;
         right: 175px;
     }
 
@@ -2073,8 +2074,8 @@ input {
     body > main:nth-child(1) > main:nth-child(2) > section:nth-child(3) > div:nth-child(1) {
         width: 340px;
         height: 340px;
-        right: 245px;
-        top: 150px;
+        right: 246px;
+        top: 215px;
     }
 
     /* Adjust top-right small circle */
