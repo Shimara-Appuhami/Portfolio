@@ -355,7 +355,7 @@ main:nth-child(3)>section:nth-child(1)>div:nth-child(1){
     font-family: 'Inter', sans-serif;
     position: relative;
     top: 20px;
-    right: -400px;
+    right: -300px;
     margin: auto;
     text-align: left;
     font-size: 40px;
@@ -369,7 +369,7 @@ main:nth-child(3)>section:nth-child(1)>div:nth-child(2){
     font-family: 'Inter', sans-serif;
     position: relative;
     top: 20px;
-    right: -400px;
+    right: -300px;
     margin: auto;
     text-align: left;
     font-size: 40px;
@@ -380,20 +380,20 @@ main:nth-child(3)>section:nth-child(1)>div:nth-child(2){
 }
 /*about me picture*/
 main:nth-child(3)>img{
-    width: 150px;
-    height: 80%;
+    width: 120px;
+    height:500px;
     position: relative;
-    top: 50px;
-    left: 100px;
-    margin: auto;
+    top: 100px;
+    left: 300px;
+
 
 }
 /*about word*/
 main:nth-child(3)>section:nth-child(3)>div{
     font-family: 'Katibeh', sans-serif;
     position: relative;
-    top: -505px;
-    right: -400px;
+    top: -440px;
+    right: -510px;
     margin: auto;
     text-align: left;
     font-size: 27px;
@@ -405,10 +405,11 @@ main:nth-child(3)>section:nth-child(3)>div{
 }
 /*about paragraph*/
 main:nth-child(3)>section:nth-child(3)>p{
+    width: 700px;
     font-family: 'Katibeh', sans-serif;
     position: relative;
-    top: -505px;
-    right: -400px;
+    top: -450px;
+    right: -100px;
     margin: auto;
     text-align: left;
     font-size: 27px;
@@ -421,8 +422,8 @@ main:nth-child(3)>section:nth-child(3)>p{
 main:nth-child(3)>section:nth-child(4)>div{
     font-family: 'Katibeh', sans-serif;
     position: relative;
-    top: -505px;
-    right: -400px;
+    top: -425px;
+    right: -510px;
     margin: auto;
     text-align: left;
     font-size: 27px;
@@ -434,10 +435,11 @@ main:nth-child(3)>section:nth-child(4)>div{
 }
 /*background paragraph*/
 main:nth-child(3)>section:nth-child(4)>p{
+    width: 700px;
     font-family: 'Katibeh', sans-serif;
     position: relative;
-    top: -505px;
-    right: -400px;
+    top: -400px;
+    right: -100px;
     margin: auto;
     text-align: left;
     font-size: 27px;
@@ -1893,33 +1895,6 @@ input {
     }
 }
 /*-----------------------------------------about-----------------------------------------*/
-/*laptop*/
-/* Media queries for screens up to 1440px */
-@media all and (min-width: 1440px) and (max-width:1518px){
-    main:nth-child(3) > img {
-        width: 10vw;
-    }
-
-    main:nth-child(3) > section:nth-child(1) > div:nth-child(1) {
-        font-size: 30px;
-        top: 100px;
-    }
-
-    main:nth-child(3) > section:nth-child(1) > div:nth-child(2) {
-        font-size: 2vw;
-    }
-
-    main:nth-child(3) > section:nth-child(3) > div,
-    main:nth-child(3) > section:nth-child(4) > div {
-        font-size: 1.8vw;
-
-    }
-
-    main:nth-child(3) > section:nth-child(3) > p,
-    main:nth-child(3) > section:nth-child(4) > p {
-        font-size: 1.5vw;
-    }
-}
 
 
 /*-----------------------------------------edu-----------------------------------------*/
@@ -2645,6 +2620,35 @@ video{
     }
 
 /*---------------------------------------------------ABOUT------------------------------------------------------*/
+/*laptop*/
+/* Media queries for screens up to 1440px */
+@media all and (min-width: 1440px) and (max-width:1518px){
+    main:nth-child(3) > img {
+        width: 120px;
+        height: 500px;
+        left: -300px;
+    }
+
+    main:nth-child(3) > section:nth-child(1) > div:nth-child(1) {
+        font-size: 30px;
+        top: 100px;
+    }
+
+    main:nth-child(3) > section:nth-child(1) > div:nth-child(2) {
+        font-size: 2vw;
+    }
+
+    main:nth-child(3) > section:nth-child(3) > div,
+    main:nth-child(3) > section:nth-child(3) > p,
+    main:nth-child(3) > section:nth-child(4) > div,
+    main:nth-child(3) > section:nth-child(4) > p {
+        width: 700px;
+        top: -400px;
+        font-size: 24px;
+        left: 230px;
+
+    }
+}
 
 
 @media all and (min-width: 1024px) and (max-width: 1440px) {
@@ -2672,9 +2676,10 @@ video{
         main:nth-child(3) > section:nth-child(3) > p,
         main:nth-child(3) > section:nth-child(4) > div,
         main:nth-child(3) > section:nth-child(4) > p {
+            width: 700px;
             top: -400px;
             font-size: 24px;
-            left: 230px;
+            left: 100px;
 
         }
     }
@@ -2706,9 +2711,10 @@ video{
     main:nth-child(3) > section:nth-child(3) > p,
     main:nth-child(3) > section:nth-child(4) > div,
     main:nth-child(3) > section:nth-child(4) > p {
+        width: 450px;
         top: -300px;
         font-size: 18px;
-        left: 180px;
+        left: 40px;
         padding: 10px;
 
     }
@@ -2845,4 +2851,1306 @@ video{
 
     }
 
+}
+/*---------------------------------------------------EDUCATION------------------------------------------------------*/
+
+@media all and (min-width: 1024px) and (max-width:1439px){
+    main:nth-child(4) > header> div:nth-child(1) {
+        position: relative;
+        font-size: 35px;
+        left: 350px;
+    }
+        main:nth-child(4) > section:nth-child(2) {
+            position: relative;
+           left: 50px;
+        }
+
+    }
+@media all and (min-width: 768px) and (max-width:1023px){
+    main:nth-child(4) > header> div:nth-child(1) {
+        position: relative;
+        font-size: 30px;
+        left: 250px;
+    }
+    main:nth-child(4) > section:nth-child(2)>{
+        position: relative;
+        left: 300px;
+    }
+    main:nth-child(4) > section:nth-child(2)>div:nth-child(1) {
+        position: relative;
+        top: 200px;
+        left: -250px;
+    }
+    main:nth-child(4) > section:nth-child(2)>div:nth-child(2) {
+        position: relative;
+        top: -100px;
+        left: 0px;
+    }
+    main:nth-child(4) > section:nth-child(2)>div:nth-child(3) {
+        position: relative;
+        top: -400px;
+        left: 250px;
+    }
+}
+@media all and (min-width: 425px) and (max-width:767px){
+
+    main:nth-child(4) > header> div:nth-child(1) {
+        width: 300px;
+        text-align: center;
+        position: relative;
+        font-size: 25px;
+        left: 0px;
+    }
+    /*main:nth-child(4) > section:nth-child(2)>{*/
+    /*    width: 150px;*/
+    /*    height: 200px;*/
+    /*    position: relative;*/
+    /*    left: 300px;*/
+    /*}*/
+    main:nth-child(4) > section:nth-child(2)>div:nth-child(1) {
+
+        position: relative;
+        width: 200px;
+        height: 200px;
+        top: 70px;
+        left: 0px;
+    }
+    main:nth-child(4) > section:nth-child(2)>div:nth-child(2) {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        top: 90px;
+        left: 0px;
+    }
+    main:nth-child(4) > section:nth-child(2)>div:nth-child(3) {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        top: 110px;
+        left: 0px;
+    }
+    main:nth-child(4) > section:nth-child(2)>div:nth-child(1)> img{
+        width: 50px;
+        height: 10px;
+
+    }
+    main:nth-child(4) > section:nth-child(2)>div:nth-child(2)> img{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+
+    }
+    main:nth-child(4) > section:nth-child(2)>div> button{
+        display: none;
+    }
+    main:nth-child(4) > section:nth-child(2)>div> address{
+        display: none;
+
+    }
+}
+
+
+@media all and (min-width: 375px) and (max-width:424px){
+
+    main:nth-child(4) > header> div:nth-child(1) {
+        width: 300px;
+        text-align: center;
+        position: relative;
+        font-size: 23px;
+        left: 0px;
+    }
+    /*main:nth-child(4) > section:nth-child(2)>{*/
+    /*    width: 150px;*/
+    /*    height: 200px;*/
+    /*    position: relative;*/
+    /*    left: 300px;*/
+    /*}*/
+    main:nth-child(4) > section:nth-child(2)>div:nth-child(1) {
+
+        position: relative;
+        width: 200px;
+        height: 200px;
+        top: 70px;
+        left: 0px;
+    }
+    main:nth-child(4) > section:nth-child(2)>div:nth-child(2) {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        top: 90px;
+        left: 0px;
+    }
+    main:nth-child(4) > section:nth-child(2)>div:nth-child(3) {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        top: 110px;
+        left: 0px;
+    }
+    main:nth-child(4) > section:nth-child(2)>div:nth-child(1)> img{
+        width: 50px;
+        height: 10px;
+
+    }
+    main:nth-child(4) > section:nth-child(2)>div:nth-child(2)> img{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+
+    }
+    main:nth-child(4) > section:nth-child(2)>div> button{
+        display: none;
+    }
+    main:nth-child(4) > section:nth-child(2)>div> address{
+        display: none;
+
+    }
+}
+
+
+@media all and (min-width: 320px) and (max-width:374px){
+
+    main:nth-child(4) > header> div:nth-child(1) {
+        width: 300px;
+        text-align: center;
+        position: relative;
+        font-size: 20px;
+        left: 0px;
+    }
+    /*main:nth-child(4) > section:nth-child(2)>{*/
+    /*    width: 150px;*/
+    /*    height: 200px;*/
+    /*    position: relative;*/
+    /*    left: 300px;*/
+    /*}*/
+    main:nth-child(4) > section:nth-child(2)>div:nth-child(1) {
+
+        position: relative;
+        width: 200px;
+        height: 200px;
+        top: 70px;
+        left: 0px;
+    }
+    main:nth-child(4) > section:nth-child(2)>div:nth-child(2) {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        top: 90px;
+        left: 0px;
+    }
+    main:nth-child(4) > section:nth-child(2)>div:nth-child(3) {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        top: 110px;
+        left: 0px;
+    }
+    main:nth-child(4) > section:nth-child(2)>div:nth-child(1)> img{
+        width: 50px;
+        height: 10px;
+
+    }
+    main:nth-child(4) > section:nth-child(2)>div:nth-child(2)> img{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+
+    }
+    main:nth-child(4) > section:nth-child(2)>div> button{
+        display: none;
+    }
+    main:nth-child(4) > section:nth-child(2)>div> address{
+        display: none;
+
+    }
+}
+
+
+/*---------------------------------------------------SKILLS------------------------------------------------------*/
+@media all and (min-width: 1024px) and (max-width:1439px){
+    /* Adjust font size for smaller screens */
+    main:nth-child(5) > section:nth-child(1) > h1 {
+        font-size: 35px;
+        top: 90px;
+    }
+
+    /* Make the background bar responsive */
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(2) {
+        width: 985px;
+        height: 150px;
+        left: 20px;
+        top: -30px;
+        border-radius: 10px;
+    }
+
+    /* Backend, Frontend, Designer cards */
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3){
+
+        width: 300px; /* Make cards full-width */
+        height: 450px; /* Allow height to adjust dynamically */
+       left: 40px;
+        top: -55px;
+    }
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4){
+        width: 300px; /* Make cards full-width */
+        height: 450px; /* Allow height to adjust dynamically */
+       left: 360px;
+        top: -505px;
+    }
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5) {
+
+        width: 300px; /* Make cards full-width */
+        height: 450px; /* Allow height to adjust dynamically */
+       left: 685px;
+        top: -955px;
+    }
+
+    /* Adjust positions of the inner elements */
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3) > h4,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4) > h4,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5) > h4 {
+        align-items: center;
+        top: 10px;
+    }
+
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3) > img,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4) > img,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5) > img {
+        width: 80px;
+        height: 50px;
+        top: 10px;
+        display: block;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    /* Adjust skill icons */
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3) > div:nth-child(4) > img,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4) > div:nth-child(4) > img,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5) > div:nth-child(4) > img {
+        width: 35px;
+        height: 35px;
+        display: block;
+        left: 0;
+        right: 0;
+        margin: 10px auto;
+    }
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3) > p{
+        position: relative;
+        top: 20px;
+
+    }
+
+}
+
+
+@media all and (min-width: 768px) and (max-width:1023px) {
+    /* Adjust font size for smaller screens */
+    main:nth-child(5) > section:nth-child(1) > h1 {
+        font-size: 30px;
+        top: 90px;
+    }
+
+    /* Make the background bar responsive */
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(2) {
+        width: 730px;
+        height: 140px;
+        left: 20px;
+        top: -30px;
+        border-radius: 10px;
+    }
+
+    /* Backend, Frontend, Designer cards */
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3) {
+
+        width: 220px; /* Make cards full-width */
+        height: 450px; /* Allow height to adjust dynamically */
+        left: 40px;
+        top: -55px;
+    }
+
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4) {
+        width: 220px; /* Make cards full-width */
+        height: 450px; /* Allow height to adjust dynamically */
+        left: 272px;
+        top: -505px;
+    }
+
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5) {
+
+        width: 230px; /* Make cards full-width */
+        height: 450px; /* Allow height to adjust dynamically */
+        left: 505px;
+        top: -955px;
+    }
+
+    /* Adjust positions of the inner elements */
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3) > h4,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4) > h4{
+        align-items: center;
+        font-size: 15px;
+        top: 10px;
+        left: 40px;
+    }
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5) > h4 {
+        align-items: center;
+        font-size: 15px;
+        top: 10px;
+        left: 80px;
+
+    }
+
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3) > img,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4) > img,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5) > img {
+        width: 60px;
+        height: 40px;
+        top: 10px;
+        display: block;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    /* Adjust skill icons */
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3) > div:nth-child(4) > img,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4) > div:nth-child(4) > img,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5) > div:nth-child(4) > img {
+        width: 35px;
+        height: 35px;
+        display: block;
+        left: 0;
+        right: 0;
+        margin: 10px auto;
+    }
+
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3) > p {
+        position: relative;
+        top: 20px;
+        width: 200px;
+
+    }
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4) > p {
+        position: relative;
+        top: 20px;
+        width: 180px;
+
+    }
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5) > p {
+        position: relative;
+        top: 20px;
+        width: 200px;
+
+    }
+    /*backend languages java*/
+    main:nth-child(5)>section:nth-child(1)>div:nth-child(3)>div:nth-child(4)>img {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top: 70px;
+        left: 0px;
+
+
+    }
+    /*backend languages mysql*/
+    main:nth-child(5)>section:nth-child(1)>div:nth-child(3)>div:nth-child(5)>img {
+        width: 35px;
+        height: 35px;
+        position: relative;
+        top: 70px;
+        left: 95px;
+
+
+    }
+    /*front-end languages html*/
+    main:nth-child(5)>section:nth-child(1)>div:nth-child(4)>div:nth-child(4)>img {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top: 20px;
+        left: 0px;
+
+
+    }
+    /*front-end languages css*/
+
+    main:nth-child(5)>section:nth-child(1)>div:nth-child(4)>div:nth-child(5)>img {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top: 10px;
+        left: 95px;
+
+
+    }
+    /*front-end languages css*/
+
+    main:nth-child(5)>section:nth-child(1)>div:nth-child(4)>div:nth-child(6)>img {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top: 10px;
+        left: 95px;
+
+
+    }
+    /*designer languages figma*/
+    main:nth-child(5)>section:nth-child(1)>div:nth-child(5)>div:nth-child(4)>img {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top: 70px;
+        left: 0px;
+
+
+    }
+
+
+}
+
+
+@media all and (min-width: 425px) and (max-width:767px) {
+    /* Adjust font size for smaller screens */
+    main:nth-child(5) > section:nth-child(1) > h1 {
+        font-size: 23px;
+        top: 10px;
+        left: 5px;
+    }
+
+    /* Make the background bar responsive */
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(2) {
+        width: 390px;
+        height: 100px;
+        left: 20px;
+        top: -60px;
+        border-radius: 10px;
+    }
+
+    /* Backend, Frontend, Designer cards */
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3){
+
+        width: 300px; /* Make cards full-width */
+        height: 300px; /* Allow height to adjust dynamically */
+        left: 70px;
+        top: -80px;
+    }
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4){
+        width: 300px; /* Make cards full-width */
+        height: 400px; /* Allow height to adjust dynamically */
+        left: 70px;
+        top: -150px;
+    }
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5) {
+
+        width: 300px; /* Make cards full-width */
+        height: 280px; /* Allow height to adjust dynamically */
+        left: 70px;
+        top: -300px;
+    }
+    /* Hover effect: Bring card to the front and scale */
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3):hover,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4):hover,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5):hover {
+        transform: scale(1.05); /* Slightly increase the size on hover */
+        box-shadow: 0px 10px 15px rgb(0, 0, 0);
+        z-index: 10;
+
+    }
+
+    /* Adjust positions of the inner elements */
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3) > h4,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4) > h4,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5) > h4 {
+        align-items: center;
+        top: 10px;
+    }
+
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3) > img,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4) > img,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5) > img {
+        width: 80px;
+        height: 50px;
+        top: 10px;
+        display: block;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    /* Adjust skill icons */
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3) > div:nth-child(4) > img,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4) > div:nth-child(4) > img,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5) > div:nth-child(4) > img {
+        width: 35px;
+        height: 35px;
+        display: block;
+        left: 0;
+        right: 0;
+        margin: 10px auto;
+    }
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3) > p{
+        position: relative;
+        top: 20px;
+
+    }
+
+}
+
+
+@media all and (min-width: 375px) and (max-width:424px) {
+    /* Adjust font size for smaller screens */
+    main:nth-child(5) > section:nth-child(1) > h1 {
+        font-size: 23px;
+        top: 10px;
+        left: 5px;
+    }
+
+    /* Make the background bar responsive */
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(2) {
+        width: 340px;
+        height: 100px;
+        left: 20px;
+        top: -60px;
+        border-radius: 10px;
+    }
+
+    /* Backend, Frontend, Designer cards */
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3){
+
+        width: 300px; /* Make cards full-width */
+        height: 300px; /* Allow height to adjust dynamically */
+        left: 42px;
+        top: -80px;
+    }
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4){
+        width: 300px; /* Make cards full-width */
+        height: 400px; /* Allow height to adjust dynamically */
+        left: 42px;
+        top: -150px;
+    }
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5) {
+
+        width: 300px; /* Make cards full-width */
+        height: 280px; /* Allow height to adjust dynamically */
+        left: 42px;
+        top: -300px;
+    }
+    /* Hover effect: Bring card to the front and scale */
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3):hover,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4):hover,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5):hover {
+        transform: scale(1.05); /* Slightly increase the size on hover */
+        box-shadow: 0px 10px 15px rgb(0, 0, 0);
+        z-index: 10;
+
+    }
+
+    /* Adjust positions of the inner elements */
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3) > h4,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4) > h4{
+        align-items: center;
+        top: 10px;
+        left: 80px;
+        font-size: 15px;
+    }
+
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5) > h4 {
+        align-items: center;
+        top: 10px;
+        left: 115px;
+        font-size: 15px;
+    }
+
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3) > img,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4) > img,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5) > img {
+        width: 80px;
+        height: 50px;
+        top: 10px;
+        display: block;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    /* Adjust skill icons */
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3) > div:nth-child(4) > img,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4) > div:nth-child(4) > img,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5) > div:nth-child(4) > img {
+        width: 35px;
+        height: 35px;
+        display: block;
+        left: 0;
+        right: 0;
+        margin: 10px auto;
+    }
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3) > p{
+        position: relative;
+        top: 20px;
+
+    }
+
+}
+
+
+@media all and (min-width: 320px) and (max-width:374px) {
+    /* Adjust font size for smaller screens */
+    main:nth-child(5) > section:nth-child(1) > h1 {
+        font-size: 23px;
+        top: 10px;
+        left: 5px;
+    }
+
+    /* Make the background bar responsive */
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(2) {
+        width: 315px;
+        height: 100px;
+        left: 5px;
+        top: -60px;
+        border-radius: 10px;
+    }
+
+    /* Backend, Frontend, Designer cards */
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3){
+
+        width: 300px; /* Make cards full-width */
+        height: 300px; /* Allow height to adjust dynamically */
+        left: 13px;
+        top: -80px;
+    }
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4){
+        width: 300px; /* Make cards full-width */
+        height: 400px; /* Allow height to adjust dynamically */
+        left: 13px;
+        top: -150px;
+    }
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5) {
+
+        width: 300px; /* Make cards full-width */
+        height: 280px; /* Allow height to adjust dynamically */
+        left: 13px;
+        top: -300px;
+    }
+    /* Hover effect: Bring card to the front and scale */
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3):hover,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4):hover,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5):hover {
+        transform: scale(1.01); /* Slightly increase the size on hover */
+        box-shadow: 0px 10px 15px rgb(0, 0, 0);
+        z-index: 10;
+
+    }
+
+    /* Adjust positions of the inner elements */
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3) > h4,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4) > h4{
+        align-items: center;
+        top: 10px;
+        left: 80px;
+        font-size: 15px;
+    }
+
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5) > h4 {
+        align-items: center;
+        top: 10px;
+        left: 115px;
+        font-size: 15px;
+    }
+
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3) > img,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4) > img,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5) > img {
+        width: 80px;
+        height: 50px;
+        top: 10px;
+        display: block;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    /* Adjust skill icons */
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3) > div:nth-child(4) > img,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4) > div:nth-child(4) > img,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5) > div:nth-child(4) > img {
+        width: 35px;
+        height: 35px;
+        display: block;
+        left: 0;
+        right: 0;
+        margin: 10px auto;
+    }
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(3) > p,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(4) > p,
+    main:nth-child(5) > section:nth-child(1) > div:nth-child(5) > p{
+        position: relative;
+        top: 20px;
+        font-size: 11px;
+        text-align: center;
+        left: -5px;
+
+    }
+
+}
+
+
+/*-------------------------------------------------------ACHIEVEMENTS-------------------------------------------------------------------------- */
+
+@media all and (min-width: 1024px) and (max-width: 1439px) {
+    /* Reduce card size */
+    .card1, .card2 {
+        width: 220px;
+        height: 300px;
+        left: 235px;
+
+
+    }
+
+    .card3, .card4 {
+        width: 220px;
+        height: 300px;
+        left: 550px;
+    }
+
+    /* Adjust header font size */
+    main:nth-child(6) > header > h1 {
+        font-size: 40px;
+        top: 20px;
+    }
+
+    /* Adjust paragraph width and position */
+    main:nth-child(6) > header > p {
+        font-size: 18px;
+        left: 415px;
+        top: -10px;
+
+    }
+
+    /* Adjust line position and size */
+    .line {
+        height: 400px;
+        top: 100px;
+    }
+}
+
+
+
+
+
+@media all and (min-width: 768px) and (max-width:1023px) {
+    /* Reduce card size */
+    .card1, .card2 {
+        width: 220px;
+        height: 300px;
+        left: 100px;
+
+
+    }
+
+    .card3, .card4 {
+        width: 220px;
+        height: 300px;
+        left: 435px;
+    }
+
+    /* Adjust header font size */
+    main:nth-child(6) > header > h1 {
+        font-size: 40px;
+        top: 20px;
+        left: 0px;
+    }
+
+    /* Adjust paragraph width and position */
+    main:nth-child(6) > header > p {
+        font-size: 18px;
+        left: 300px;
+        top: -10px;
+
+    }
+
+    /* Adjust line position and size */
+    .line {
+        height: 400px;
+        top: 100px;
+    }
+}
+
+
+
+@media all and (min-width: 425px) and (max-width:767px) {
+    /* Reduce card size */
+    .card1{
+        width: 220px;
+        height: 230px;
+        left: 100px;
+    }
+    .card2 {
+        width: 220px;
+        height: 230px;
+        left: 100px;
+        margin-top:85px ;
+    }
+
+    .card3{
+        width: 220px;
+        height: 230px;
+        margin-top:200px;
+        left: 100px;
+
+
+    }
+    .card4 {
+        width: 220px;
+        height: 230px;
+        margin-top:310px;
+        left: 100px;
+    }
+
+    /* Adjust header font size */
+    main:nth-child(6) > header > h1 {
+        font-size: 30px;
+        top: 20px;
+        left: 0px;
+    }
+
+    /* Adjust paragraph width and position */
+    main:nth-child(6) > header > p {
+        font-size: 15px;
+        left: 150px;
+        top: -10px;
+
+    }
+
+    /* Adjust line position and size */
+    .line {
+       display: none;
+    }
+    main:nth-child(6) > div>h3{
+        font-size: 15px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    main:nth-child(6) > div>p{
+        width: 200px;
+        font-size: 10px;
+        margin-top: 10px;
+        /*text-align: center;*/
+    }
+
+}
+
+
+
+@media all and (min-width: 375px) and (max-width:424px) {
+    /* Reduce card size */
+    .card1{
+        width: 220px;
+        height: 230px;
+        left: 80px;
+    }
+    .card2 {
+        width: 220px;
+        height: 230px;
+        left: 80px;
+        margin-top:85px ;
+    }
+
+    .card3{
+        width: 220px;
+        height: 230px;
+        margin-top:200px;
+        left: 80px;
+
+
+    }
+    .card4 {
+        width: 220px;
+        height: 230px;
+        margin-top:310px;
+        left: 80px;
+    }
+
+    /* Adjust header font size */
+    main:nth-child(6) > header > h1 {
+        font-size: 25px;
+        top: 20px;
+        left: 0px;
+    }
+
+    /* Adjust paragraph width and position */
+    main:nth-child(6) > header > p {
+        font-size: 12px;
+        left: 135px;
+        top: -10px;
+
+    }
+
+    /* Adjust line position and size */
+    .line {
+        display: none;
+    }
+    main:nth-child(6) > div>h3{
+        font-size: 15px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    main:nth-child(6) > div>p{
+        width: 200px;
+        font-size: 10px;
+        margin-top: 10px;
+        /*text-align: center;*/
+    }
+
+}
+
+
+
+@media all and (min-width: 320px) and (max-width:374px) {
+    /* Reduce card size */
+    .card1{
+        width: 220px;
+        height: 230px;
+        left: 50px;
+    }
+    .card2 {
+        width: 220px;
+        height: 230px;
+        left: 50px;
+        margin-top:85px ;
+    }
+
+    .card3{
+        width: 220px;
+        height: 230px;
+        margin-top:200px;
+        left: 50px;
+
+
+    }
+    .card4 {
+        width: 220px;
+        height: 230px;
+        margin-top:310px;
+        left: 50px;
+    }
+
+    /* Adjust header font size */
+    main:nth-child(6) > header > h1 {
+        font-size: 22px;
+        top: 20px;
+        left: 0px;
+    }
+
+    /* Adjust paragraph width and position */
+    main:nth-child(6) > header > p {
+        font-size: 12px;
+        left: 108px;
+        top: -10px;
+
+    }
+
+    /* Adjust line position and size */
+    .line {
+        display: none;
+    }
+    main:nth-child(6) > div>h3{
+        font-size: 15px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    main:nth-child(6) > div>p{
+        width: 200px;
+        font-size: 10px;
+        margin-top: 10px;
+        /*text-align: center;*/
+    }
+
+}
+
+/*--------------------------------------------------------PROJECTS-------------------------------------------------------------*/
+
+
+@media all and (min-width: 1024px) and (max-width:1439px) {
+
+    .projects-cards{
+        position: absolute;
+       left: 300px;
+    }
+    main:nth-child(7)>header>h3{
+        font-size: 40px;
+        margin-top: 30px;
+    }
+
+    /*!* Sticky bars styling *!*/
+    /*.sticky-bar1, .sticky-bar2, .sticky-bar3, .sticky-bar4 {*/
+    /*    width: 400px;*/
+    /*    height: 350px;*/
+    /*    background: linear-gradient(10deg, #223A60 0%, #3B5998 100%);*/
+    /*    color: #A9A9A9;*/
+    /*    display: flex;*/
+    /*    align-items: center;*/
+    /*    padding-left: 20px;*/
+    /*    position: sticky;*/
+    /*    z-index: 1;*/
+    /*    border-radius: 40px;*/
+    /*    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.5);*/
+    /*    left: 550px;*/
+    /*}*/
+
+    /*.sticky-bar1 {*/
+    /*    top: 40px;*/
+    /*}*/
+
+    /*.sticky-bar2 {*/
+    /*    top: 50px;*/
+    /*}*/
+
+    /*.sticky-bar3 {*/
+    /*    top: 70px;*/
+    /*}*/
+
+    /*.sticky-bar4 {*/
+    /*    background: linear-gradient(10deg, #223A60 0%, #5C3D99 100%);*/
+    /*    top: 80px;*/
+    /*}*/
+
+    /*!* Image styling *!*/
+    /*main:nth-child(7) > section > div:nth-child(1) > img,*/
+    /*main:nth-child(7) > section > div:nth-child(2) > img,*/
+    /*main:nth-child(7) > section > div:nth-child(3) > img,*/
+    /*main:nth-child(7) > section > div:nth-child(4) > img {*/
+    /*    width: 420px;*/
+    /*    height: 250px;*/
+    /*    border-radius: 20px;*/
+    /*    position: relative;*/
+    /*    box-shadow: 1px 5px 10px rgba(2, 16, 60, 0.8);*/
+    /*}*/
+
+    /*!* Image positioning *!*/
+    /*main:nth-child(7) > section > div:nth-child(1) > img {*/
+    /*    top: -60px;*/
+    /*    left: -86px;*/
+    /*}*/
+
+    /*main:nth-child(7) > section > div:nth-child(2) > img {*/
+    /*    top: -50px;*/
+    /*    left: -52px;*/
+    /*}*/
+
+    /*main:nth-child(7) > section > div:nth-child(3) > img {*/
+    /*    top: -50px;*/
+    /*    left: -113px;*/
+    /*}*/
+
+    /*main:nth-child(7) > section > div:nth-child(4) > img {*/
+    /*    top: -50px;*/
+    /*    left: -91px;*/
+    /*}*/
+
+    /*!* Text styling *!*/
+    /*main:nth-child(7) > section > div > h4 {*/
+    /*    font-size: 20px;*/
+    /*    position: relative;*/
+    /*    left: 100px;*/
+    /*    bottom: -110px;*/
+    /*    display: inline;*/
+    /*    text-align: left;*/
+    /*}*/
+}
+
+
+@media all and (min-width: 768px) and (max-width:1023px) {
+
+    .projects-cards {
+        width: 400px;
+        position: absolute;
+        left: 180px;
+    }
+
+    main:nth-child(7) > header > h3 {
+        font-size: 35px;
+        margin-top: 30px;
+    }
+}
+
+@media all and (min-width: 425px) and (max-width:767px) {
+
+    .projects-cards {
+        width: 300px;
+        position: absolute;
+        left: 60px;
+    }
+
+    main:nth-child(7) > header > h3 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    main:nth-child(7) > section > div:nth-child(1) > img {
+        width: 300px;
+        height: 200px;
+
+    }
+    main:nth-child(7) > section > div:nth-child(2) > img {
+        width: 300px;
+        height: 200px;
+    }
+    main:nth-child(7) > section > div:nth-child(3) > img {
+        width: 300px;
+        height: 200px;
+
+
+    }
+    main:nth-child(7) > section > div:nth-child(4) > img {
+        width: 300px;
+        height: 200px;
+
+    }
+    .sticky-bar1,.sticky-bar2,.sticky-bar3,.sticky-bar4  {
+        width: 280px;
+        height: 200px;
+        margin-top: 100px;
+        border-radius: 20px;
+    }
+    main:nth-child(7) > section > div > h4 {
+        width: 300px;
+       height: 200px;
+        top: 150px;
+        font-weight: 100;
+    }
+}
+
+
+@media all and (min-width: 375px) and (max-width:424px) {
+
+    .projects-cards {
+        width: 300px;
+        position: absolute;
+        left: 40px;
+    }
+
+    main:nth-child(7) > header > h3 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    main:nth-child(7) > section > div:nth-child(1) > img {
+        width: 300px;
+        height: 200px;
+        left: -83px;
+
+    }
+    main:nth-child(7) > section > div:nth-child(2) > img {
+        width: 300px;
+        height: 200px;
+        left: -48px;
+    }
+    main:nth-child(7) > section > div:nth-child(3) > img {
+        width: 300px;
+        height: 200px;
+        left: -105px;
+
+
+    }
+    main:nth-child(7) > section > div:nth-child(4) > img {
+        width: 300px;
+        height: 200px;
+        left: -89px;
+
+
+    }
+    .sticky-bar1,.sticky-bar2,.sticky-bar3,.sticky-bar4  {
+        width: 280px;
+        height: 200px;
+        margin-top: 100px;
+        border-radius: 20px;
+    }
+    main:nth-child(7) > section > div > h4 {
+        width: 300px;
+        height: 200px;
+        top: 150px;
+        font-weight: 100;
+    }
+}
+
+
+@media all and (min-width: 320px) and (max-width:374px) {
+
+
+    .projects-cards {
+        width: 280px;
+        position: absolute;
+        left: 40px;
+    }
+
+    main:nth-child(7) > header > h3 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    main:nth-child(7) > section > div:nth-child(1) > img {
+        width: 300px;
+        height: 200px;
+        left: -84px;
+
+    }
+    main:nth-child(7) > section > div:nth-child(2) > img {
+        width: 300px;
+        height: 200px;
+        left: -48px;
+    }
+    main:nth-child(7) > section > div:nth-child(3) > img {
+        width: 300px;
+        height: 200px;
+        left: -105px;
+
+
+    }
+    main:nth-child(7) > section > div:nth-child(4) > img {
+        width: 300px;
+        height: 200px;
+        left: -89px;
+
+
+    }
+    .sticky-bar1 {
+        width: 280px;
+        height: 200px;
+        position: relative;
+        margin-top: 100px;
+        left: -30px;
+        border-radius: 20px;
+    }
+    .sticky-bar2{
+        width: 280px;
+        height: 200px;
+        position: relative;
+        margin-top: 100px;
+        left: -30px;
+        border-radius: 20px;
+
+    }
+    .sticky-bar3{
+        width: 280px;
+        height: 200px;
+        position: relative;
+        margin-top: 100px;
+        left: -30px;
+        border-radius: 20px;
+
+    }
+    .sticky-bar4  {
+        width: 280px;
+        height: 200px;
+        position: relative;
+        margin-top: 100px;
+        left: -30px;
+        border-radius: 20px;
+
+
+    }
+    main:nth-child(7) > section > div > h4 {
+        width: 300px;
+        height: 200px;
+        top: 150px;
+        font-weight: 100;
+    }
 }
