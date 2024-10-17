@@ -4197,9 +4197,34 @@ video{
         left: -320px;
         top: 300px;
     }
+    .text{
+        width: 320px;
+    }
     .text a{
-        left: 192px;
+        left: 10px;
     }
 
+    .wrap:hover .overlay {
+        transform: translateX(-100vmin);
+    }
 
 }
+/*@media all and (min-width: 425px) and (max-width:767px){*/
+/*    main:nth-child(8)>header>h3 {*/
+/*        width: 300px;*/
+/*        font-size: 35px;*/
+/*        margin-top: 90px;*/
+/*    }*/
+/*    .card-container{*/
+/*        width: 300px;*/
+/*        height: 100%;*/
+/*        left: -320px;*/
+/*        top: 300px;*/
+/*    }*/
+/*    .text a{*/
+/*        left: 192px;*/
+/*    }*/
+
+
+/*}*/
+
