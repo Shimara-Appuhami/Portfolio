@@ -1584,9 +1584,9 @@ main:nth-child(9)>header>h3 {
     transform: translateZ(100px);
 }
 
-.card:hover .price {
-    transform: translateZ(60px);
-}
+/*.card:hover .price {*/
+/*    transform: translateZ(60px);*/
+/*}*/
 
 .card:hover a {
     transform: translateZ(-60px) rotateY(-180deg);
@@ -4262,6 +4262,78 @@ video{
 
     .wrap:hover .overlay {
         transform: translateX(-120vmin);
+    }
+
+}
+
+/*---------------------------------------------------------GALLERY---------------------------------------------------------*/
+
+@media all and (min-width: 1024px) and (max-width:1439px){
+    .row {
+        grid-template-columns: 1fr 1fr 1fr;
+        height: auto;
+        margin-top: 100px;
+    }
+
+    .card {
+        width: 300px;
+        height: 450px;
+        margin: 15px;
+    }
+
+    main:nth-child(9)>h1 {
+        font-size: 20px;
+        left: 20px;
+        bottom: 30px;
+    }
+}
+
+/* For screens up to 768px (tablets) */
+@media all and (min-width: 768px) and (max-width:1023px){
+   main:nth-child(9)>header>h3{
+        font-size: 35px;
+        top: 50px;
+
+   }
+    .row {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .card {
+        width: 200px;
+        height: 250px;
+        margin: 15px;
+    }
+
+    h1 {
+        font-size: 2em;
+        left: 30px;
+        bottom: 20px;
+    }
+}
+
+
+@media all and (min-width: 425px) and (max-width:767px){
+    main:nth-child(9) > header > h3 {
+        font-size: 28px;
+        top: 270px;
+    }
+
+    .row {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 200px;
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 1em;
+        left: 30px;
+        bottom: 15px;
     }
 
 }
