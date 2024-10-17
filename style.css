@@ -4209,22 +4209,59 @@ video{
     }
 
 }
-/*@media all and (min-width: 425px) and (max-width:767px){*/
-/*    main:nth-child(8)>header>h3 {*/
-/*        width: 300px;*/
-/*        font-size: 35px;*/
-/*        margin-top: 90px;*/
-/*    }*/
-/*    .card-container{*/
-/*        width: 300px;*/
-/*        height: 100%;*/
-/*        left: -320px;*/
-/*        top: 300px;*/
-/*    }*/
-/*    .text a{*/
-/*        left: 192px;*/
-/*    }*/
+
+@media all and (min-width: 375px) and (max-width:424px){
+    main:nth-child(8)>header>h3 {
+        width: 300px;
+        font-size: 30px;
+        margin-top: 90px;
+    }
+    .card-container{
+        width: 300px;
+        height: 100%;
+        left: -345px;
+        top: 300px;
+    }
+    .text{
+        width: 320px;
+    }
+    .text a{
+        left: 10px;
+    }
+
+    .wrap:hover .overlay {
+        transform: translateX(-100vmin);
+    }
+
+}
 
 
-/*}*/
+@media all and (min-width: 320px) and (max-width:374px){
+    main:nth-child(8)>header>h3 {
+        width: 200px;
+        font-size: 25px;
+        margin-top: 90px;
+    }
+    .card-container{
+        width: 280px;
+        height: 100%;
+        left: -280px;
+        top: 300px;
+    }
+    .wrap{
+        width: 350px;
+        left: 50px;
 
+    }
+    .text{
+        width: 320px;
+    }
+    .text a{
+        left: 10px;
+    }
+
+    .wrap:hover .overlay {
+        transform: translateX(-120vmin);
+    }
+
+}
