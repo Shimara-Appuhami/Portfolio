@@ -4154,3 +4154,33 @@ video{
         font-weight: 100;
     }
 }
+
+
+
+
+/*----------------------------------------------------------ASIGNMENT----------------------------------------------------------*/
+
+@media all and (min-width: 1024px) and (max-width:1439px){
+    main:nth-child(8)>header>h3 {
+        font-size: 42px;
+    }
+    .text a{
+        left: 192px;
+    }
+
+
+}
+@media all and (min-width: 768px) and (max-width:1023px){
+    main:nth-child(8)>header>h3 {
+        font-size: 35px;
+    }
+    .card-container{
+        width: 300px;
+
+    }
+    .text a{
+        left: 192px;
+    }
+
+
+}
