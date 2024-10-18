@@ -1854,6 +1854,18 @@ input {
     height: 2px;
     background-color: rgb(255, 255, 255);
 }
+.btn-send{
+    width: 60px;
+    height: 30px;
+    position:relative;
+    bottom: 200px;
+    left: 150px;
+    background-color: #0c3fff;
+    color: #FFFFFF;
+    /*padding: 10px 20px;*/
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 
 
@@ -4336,4 +4348,198 @@ video{
         bottom: 15px;
     }
 
+}
+
+@media all and (min-width: 375px) and (max-width:424px){
+    main:nth-child(9) > header > h3 {
+        font-size: 28px;
+        top: 270px;
+    }
+
+    .row {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 200px;
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 1em;
+        left: 30px;
+        bottom: 15px;
+    }
+
+}
+
+
+@media all and (min-width: 320px) and (max-width:374px){
+    main:nth-child(9) > header > h3 {
+        font-size: 25px;
+        top: 270px;
+    }
+
+    .row {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 200px;
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 1em;
+        left: 30px;
+        bottom: 15px;
+    }
+
+}
+
+
+/*-------------------------------------------------CONTACT---------------------------------------------------------*/
+@media all and (min-width: 768px) and (max-width: 1023px) {
+
+    main:nth-child(10)>header>h3{
+        display: none;
+    }
+    main:nth-child(10)>section:nth-child(2)>h6{
+        font-size: 30px;
+        top: -20px;
+        left: 80px;
+    }
+    form{
+        width: 300px;
+        margin-top: 400px;
+        margin-left: 210px;
+    }
+    main:nth-child(10)>section:nth-child(5){
+        margin-left: -870px;
+        margin-top: -350px;
+    }
+    main:nth-child(10)>section:nth-child(3)>div>a>img{
+        width: 30px;
+        height: 30px;
+        left: 290px;
+        top: 150px;
+    }
+    .btn-send{
+        bottom: 240px;
+    }
+}
+
+@media all and (min-width: 425px) and (max-width: 767px) {
+    main:nth-child(10)>header>h3{
+        display: none;
+    }
+    main:nth-child(10)>section:nth-child(2)>h6{
+        font-size: 25px;
+        top: -20px;
+        left: 80px;
+    }
+    form{
+        width: 300px;
+        margin-top: 400px;
+        margin-left: 40px;
+    }
+    main:nth-child(10)>section:nth-child(5){
+        margin-left: -1050px;
+        margin-top: -350px;
+    }
+    main:nth-child(10)>section:nth-child(3)>div>a>img{
+        width: 30px;
+        height: 30px;
+        left: 110px;
+        top: 150px;
+    }
+    .btn-send{
+        bottom: 240px;
+    }
+}
+
+@media all and (min-width: 375px) and (max-width: 424px) {
+    main:nth-child(10)>header>h3{
+        display: none;
+    }
+    main:nth-child(10)>section:nth-child(2)>h6{
+        font-size: 20px;
+        top: -20px;
+        left: 50px;
+    }
+    form{
+        width: 250px;
+        margin-top: 400px;
+        margin-left: 35px;
+    }
+    main:nth-child(10)>section:nth-child(5){
+        margin-left: -1075px;
+        margin-top: -350px;
+    }
+    main:nth-child(10)>section:nth-child(5)>img{
+        width: 70px;
+        height: 70px;
+
+        /*top: 150px;*/
+    }
+    main:nth-child(10)>section:nth-child(3)>div>a>img{
+        width: 30px;
+        height: 30px;
+        left: 90px;
+        top: 150px;
+    }
+    .btn-send{
+        bottom: 240px;
+        left: 120px;
+    }
+    fieldset>label{
+        font-size: 12px;
+    }
+}
+
+
+@media all and (min-width: 320px) and (max-width: 374px) {
+    main:nth-child(10)>header>h3{
+        display: none;
+    }
+    main:nth-child(10)>section:nth-child(2)>h6{
+        font-size: 20px;
+        top: -20px;
+        left: 50px;
+    }
+    form{
+        width: 250px;
+        margin-top: 400px;
+        margin-left: 10px;
+    }
+    main:nth-child(10)>section:nth-child(5){
+        margin-left: -1075px;
+        margin-top: -350px;
+    }
+    main:nth-child(10)>section:nth-child(5)>img{
+        width: 70px;
+        height: 70px;
+
+        /*top: 150px;*/
+    }
+    main:nth-child(10)>section:nth-child(5)>label{
+        font-size: 10px;
+    }
+    main:nth-child(10)>section:nth-child(3)>div>a>img{
+        width: 30px;
+        height: 30px;
+        left: 60px;
+        top: 150px;
+    }
+    .btn-send{
+        bottom: 240px;
+        left: 120px;
+    }
+    fieldset>label{
+        font-size: 11px;
+    }
 }
